@@ -1,0 +1,19 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+}

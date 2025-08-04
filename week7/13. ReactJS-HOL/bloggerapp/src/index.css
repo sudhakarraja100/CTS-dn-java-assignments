@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.component-section {
+  flex: 1;
+  padding: 15px;
+  border-right: 2px solid green;
+  margin-right: 20px;
+}
+
+.component-section:last-child {
+  border-right: none;
+  margin-right: 0;
+}
+
+.component-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.item-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.item-date, .item-author, .item-price {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.item-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
